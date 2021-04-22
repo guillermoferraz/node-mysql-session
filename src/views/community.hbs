@@ -1,0 +1,24 @@
+{{> nav}}
+
+<div class='container'>
+    <div class='row'>
+
+        <div class='mt-4 col-md-8'>
+            <div class='row'>
+                {{#each data}}
+                    <div class="card col-md-3 m-2 shadow shadow-3">
+
+                        <strong>{{title}}</strong>
+                        <div class='card-body'>
+                            {{description}}
+                        </div>
+                        <img src="{{image}}" alt="image" class='img-thumbnail img-fluid'>
+                    </div>
+
+                {{/each}}
+            </div>
+
+        </div>
+
+    </div>
+</div>

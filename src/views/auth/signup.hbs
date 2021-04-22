@@ -1,0 +1,30 @@
+<div class="m-4">
+    {{> msg}}
+</div>
+
+
+<div class="col-md-3 mx-auto mt-5">
+    <div class="card mx-auto shadow shadow-3">
+        <div class="card-header">
+            <div class='card-title text-center'>
+                <h4>Create account</h4>
+            </div>
+        </div>
+        <div class="card-body p-3">
+            <form action="#" method='post'>
+                <input type="text" name="fullname"  class="form-control mt-2" placeholder="Fullname">
+                <input type="text" name="username" class="form-control mt-2" placeholder='Username'>
+                <input type='password' name="password" class="form-control mt-2" placeholder="Password">
+
+                <div class='d-grid gap-2'>
+                    <button class="btn btn-primary mt-2">
+                        Create account
+                    </button>
+                    <div class="form-inline"> 
+                        You have account?.Login <a href="/signin">  here</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
